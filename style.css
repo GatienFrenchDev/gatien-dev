@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+body {
+    margin: 0;
+}
+
+section.header {
+    display: flex;
+    font-family: 'Quicksand';
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
+nav {
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+}
+
+.title {
+    font-size: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.landing-page {
+    font-family: 'Source Code Pro';
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+.citation {
+    margin-top: 250px;
+    margin-bottom: 300px;
+}
+
+p.presentation {
+    font-family: 'PT Sans Narrow';
+    font-size: 20px;
+}
+
+a:hover {
+    color: gray;
+}
