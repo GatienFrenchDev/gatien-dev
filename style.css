@@ -183,3 +183,8 @@ a.lien-api {
 a.lien-api:hover {
     color: blue;
 }
+
+p.contact-me {
+    font-size: 40px;
+    font-family: 'Rubik';
+}
