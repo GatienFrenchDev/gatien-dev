@@ -41,11 +41,6 @@ a {
     margin-right: 8%;
 }
 
-.citation {
-    font-size: max(4vw, 50px);
-    margin-top: 18%;
-    margin-bottom: 300px;
-}
 
 p.presentation {
     font-family: 'PT Sans Narrow';
@@ -95,4 +90,37 @@ a.logo {
     margin-right: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.anim-typewriter {
+    animation: typewriter 4s steps(40) 1s 1 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.citation {
+    font-size: 100%;
+    border-right: 2px solid rgba(0, 0, 0, 0.75);
+    width: 38vw;
+    margin-top: 18%;
+    margin-bottom: 300px;
+    white-space: nowrap;
+    overflow: hidden;transform: translateY(-50%);
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 38vw;
+    }
+}
+
+@keyframes blnkTextCursor {
+    from {
+        border-right-color: rgba(0, 0, 0, 0.75);
+    }
+    to {
+        border-right-color: transparent;
+    }
 }
