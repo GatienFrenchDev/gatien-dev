@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Source+Code+Pro:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 body {
     margin: 0;
@@ -57,7 +58,8 @@ a:hover {
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    max-height: 300px;
+    margin-top: 0px;
+    margin-bottom: 3em;
 }
 
 
@@ -93,7 +95,7 @@ a.logo {
 }
 
 .anim-typewriter {
-    animation: typewriter 4s steps(40) 1s 1 normal both,
+    animation: typewriter 3s steps(40) 1s 1 normal both,
     blinkTextCursor 500ms steps(40) infinite normal;
 }
 
@@ -123,4 +125,61 @@ a.logo {
     to {
         border-right-color: transparent;
     }
+}
+
+
+.soft {
+    width: 100%;
+    align-items: center;
+    margin: 0px;
+}
+
+p.titre-soft {
+    text-align: center;
+    color: black;
+}
+
+p.titre {
+    font-family: 'Rubik';
+}
+
+p.paragraphe {
+    font-family: 'Rubik';
+    font-size: 1.5rem;
+    font-weight: 1;
+    margin: 0;
+}
+
+div.list-soft {
+    margin-right: 10%;
+    margin-left: 7%;
+}
+
+a.href {
+    margin: 0px;
+    height: 100%;
+}
+
+div.bonsoir {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button.btn-soft {
+    margin: 0px 0px 0px 100px;
+    font-family: 'Rubik';
+    font-size: 1rem;
+    height: 85px;
+    width: 300px;
+    padding: 0px;
+    box-shadow: 0px 0px 3px black;
+}
+
+a.lien-api {
+    text-decoration: underline;
+}
+
+a.lien-api:hover {
+    color: blue;
 }
