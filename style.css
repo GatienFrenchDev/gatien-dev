@@ -185,6 +185,21 @@ a.lien-api:hover {
 }
 
 p.contact-me {
+    font-size: 28px;
+    font-family: 'Rubik';
+}
+
+p.contact-me-title {
+    margin-top: 120px;
     font-size: 40px;
     font-family: 'Rubik';
+}
+
+p.mentions-legales-text {
+    font-size: 15px;
+    font-family: 'Rubik';
+}
+
+div.mentions-legales {
+    margin-top: 15%;
 }
