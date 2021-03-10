@@ -203,3 +203,17 @@ p.mentions-legales-text {
 div.mentions-legales {
     margin-top: 20%;
 }
+
+.paragraphe-github-text {
+    font-size: 35px;
+    font-family: 'Rubik';
+}
+
+a.github {
+    text-decoration: underline black;
+    text-decoration-thickness: 2px;
+}
+
+a.github:hover {
+    color: blue;
+}
