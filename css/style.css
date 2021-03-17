@@ -54,3 +54,11 @@ p.titre-p {
 	color: white;
 	font-family: 'Oswald';
 }
+
+p.soustitre{
+	color: white;
+	text-align: center;
+	font-family: 'Oswald';
+	margin-top: 18px;
+	font-size: 40px;
+}
